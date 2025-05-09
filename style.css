@@ -1,0 +1,198 @@
+body {
+  background: linear-gradient(to right, #0d1b2a, #1b263b);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+.game-container {
+  padding: 20px;
+  margin-top: 50px;
+}
+
+
+.custom-btn {
+  border-radius: 10px;
+  border: 2px solid #00ffcc;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.custom-btn:hover {
+  background-color: #00ffcc;
+  color: #000;
+}
+
+
+.card {
+  background-color: #1b263b;
+  border: 2px solid #00ffcc;
+  border-radius: 20px;
+  margin: 20px auto;
+  box-shadow: 0 8px 16px rgba(0, 255, 204, 0.2);
+  max-width: 400px;
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 2px solid #00ffcc;
+}
+
+#letterButtons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.letter-btn {
+  margin: 6px;
+  font-size: 20px;
+  padding: 10px 16px;
+  border-radius: 12px;
+  border: 2px solid #00ffcc;
+  color: #00ffcc;
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.letter-btn:hover {
+  background-color: #00ffcc;
+  color: #1b263b;
+  transform: scale(1.05);
+}
+
+.answer-box {
+  border: 2px dashed #00ffcc;
+  padding: 10px;
+  min-height: 50px;
+  font-size: 22px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.letter-slot {
+  border: 2px solid #00ffcc;
+  padding: 6px 10px;
+  font-size: 20px;
+  border-radius: 8px;
+  min-width: 25px;
+  text-align: center;
+  background-color: #0d1b2a;
+  color: #00ffcc;
+  transition: transform 0.2s ease;
+}
+
+.letter-slot:hover {
+  transform: scale(1.1);
+}
+
+.btn-primary {
+  background: linear-gradient(to right, #00ffcc, #007f66);
+  border: none;
+  color: #0d1b2a;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(to right, #00bbaa, #006f55);
+  color: white;
+}
+
+
+.custom-button {
+  border-radius: 10px !important;
+  border: 2px solid #00ffcc !important;
+  padding: 10px 20px !important;
+  background-color: transparent;
+  color: #00ffcc;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #00ffcc;
+  color: #000;
+  border-color: #00ffcc;
+}
+
+
+
+
+.result {
+  font-size: 24px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.result-box {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+
+#nameInputForm {
+  /* max-width: 400px;
+  margin: 50px auto; */
+  /* border-radius: 10px;
+  border: 2px solid #00ffcc;
+  padding: 10px; */
+
+
+  max-width: 400px;
+  margin: 50px auto;
+  border-radius: 10px;
+  border: 2px solid #00ffcc;
+  padding: 20px;
+  background-color: #1a1a1a; /* or any color for contrast */
+
+
+}
+
+#gameArea {
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+#restartBtn {
+  margin-top: 20px;
+}
+
+#nameInputForm input {
+  border-radius: 10px;
+  border: 2px solid #00ffcc;
+  padding: 10px;
+}
+
+#gameArea {
+  display: none;
+}
+
+#nameInputForm input:focus {
+  border-color: #00ffcc;
+  box-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+}
+
+#gameArea {
+  max-width: 600px;
+  margin: 50px auto;
+  display: block;
+}
+
+
+
+
